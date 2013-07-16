@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0772DE79179599EF004B63EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0772DE78179599EF004B63EB /* Foundation.framework */; };
+		0772DE7C179599EF004B63EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772DE7B179599EF004B63EB /* main.m */; };
+		0772DE80179599EF004B63EB /* due_reset.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0772DE7F179599EF004B63EB /* due_reset.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0772DE73179599EF004B63EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0772DE80179599EF004B63EB /* due_reset.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0772DE75179599EF004B63EB /* due-reset */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "due-reset"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0772DE78179599EF004B63EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0772DE7B179599EF004B63EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0772DE7E179599EF004B63EB /* due-reset-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "due-reset-Prefix.pch"; sourceTree = "<group>"; };
+		0772DE7F179599EF004B63EB /* due_reset.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = due_reset.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0772DE72179599EF004B63EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0772DE79179599EF004B63EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0772DE6C179599EF004B63EB = {
+			isa = PBXGroup;
+			children = (
+				0772DE7A179599EF004B63EB /* due-reset */,
+				0772DE77179599EF004B63EB /* Frameworks */,
+				0772DE76179599EF004B63EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0772DE76179599EF004B63EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0772DE75179599EF004B63EB /* due-reset */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0772DE77179599EF004B63EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0772DE78179599EF004B63EB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0772DE7A179599EF004B63EB /* due-reset */ = {
+			isa = PBXGroup;
+			children = (
+				0772DE7B179599EF004B63EB /* main.m */,
+				0772DE7F179599EF004B63EB /* due_reset.1 */,
+				0772DE7D179599EF004B63EB /* Supporting Files */,
+			);
+			path = "due-reset";
+			sourceTree = "<group>";
+		};
+		0772DE7D179599EF004B63EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0772DE7E179599EF004B63EB /* due-reset-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0772DE74179599EF004B63EB /* due-reset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0772DE83179599EF004B63EB /* Build configuration list for PBXNativeTarget "due-reset" */;
+			buildPhases = (
+				0772DE71179599EF004B63EB /* Sources */,
+				0772DE72179599EF004B63EB /* Frameworks */,
+				0772DE73179599EF004B63EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "due-reset";
+			productName = "due-reset";
+			productReference = 0772DE75179599EF004B63EB /* due-reset */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0772DE6D179599EF004B63EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = EricStobbart;
+			};
+			buildConfigurationList = 0772DE70179599EF004B63EB /* Build configuration list for PBXProject "due-reset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0772DE6C179599EF004B63EB;
+			productRefGroup = 0772DE76179599EF004B63EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0772DE74179599EF004B63EB /* due-reset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0772DE71179599EF004B63EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0772DE7C179599EF004B63EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0772DE81179599EF004B63EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0772DE82179599EF004B63EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0772DE84179599EF004B63EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "due-reset/due-reset-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0772DE85179599EF004B63EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "due-reset/due-reset-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0772DE70179599EF004B63EB /* Build configuration list for PBXProject "due-reset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0772DE81179599EF004B63EB /* Debug */,
+				0772DE82179599EF004B63EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0772DE83179599EF004B63EB /* Build configuration list for PBXNativeTarget "due-reset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0772DE84179599EF004B63EB /* Debug */,
+				0772DE85179599EF004B63EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0772DE6D179599EF004B63EB /* Project object */;
+}
